@@ -1,0 +1,253 @@
+{
+  "home": "Home",
+  "about": "About Us",
+  "services": "Services",
+  "sectors": "Sectors",
+  "projects": "Projects",
+  "gallery": "Gallery",
+  "contact": "Contact",
+ "hero": {
+    "subtitle": "Welcome to Muscat-techno",
+    "title": "Trusted Technology\nSIRA Approved",
+    "enquire": "Enquire Now",
+    "more": "More About Us"
+  },
+  
+  "introduction": {
+    "badge": "About Muscat-techno",
+    "title": "Leading Enterprise Communication Solution Provider",
+    "points": [
+      "Comprehensive ELV & Communication Solutions: Specializing in SMATV/IPTV, CCTV, Audio Video Intercom, Access Control, and Gate Barrier Systems since 2005.",
+      "Expert Team & Tailored Services: Certified designers, engineers, and installers delivering customized solutions across hospitality, residential, and corporate sectors.",
+      "Trusted Across the GCC: Recognized for top-notch consulting, project management, and after-sales support for leading enterprises and institutions.",
+      "We are pleased to introduce Muscat-techno  , an ELV Systems Integrating company established in 2005 and based in Oman. We specialize in installing all types of SMATV/IPTV Satellite Systems, CCTV, Audio Video Intercom, Access Control/Time Attendance, and Gate Barrier Systems."
+    ],
+    "button": "Learn More About Us",
+    "years": "Years of Excellence",
+    "clients": "Client Satisfaction"
+  },
+  "servicesSection": {
+    "title": "Advanced Security Features",
+    "subtitle": "Cutting-edge technology to keep your property safe and secure",
+    "button": "Awards & Milestones",
+    "items": [
+      {
+        "title": "Habtoor Grand Resort and SPA Jumeirah Beach, Oman",
+        "description": "Supply and installation of CCTV Cameras, Audio/Video system, SMATV system along with maintenance."
+      },
+      {
+        "title": "Al Forsan Real Estate Consultant :WS Atkins & Partners Overseas",
+        "description": "Supply and Installation of SMATV, RF head System & IF system for Studio Cluster1, 6 Building and Club House + Villa cluster 4,5A & 5B"
+      },
+      {
+        "title": "Al Futtaim Engineering Company LLC Oman",
+        "description": "Supply, installation and maintenance of CCTV cameras and Dish Antenna system, Audio/video system Accessories."
+      },
+      {
+        "title": "HYUNDAI Construction and Engineering Abu-Dhabi",
+        "description": "Supply and Installation and commissioning of Truman Receiver, Multi Switch, Dish Antenna at Korean Accommodation."
+      }
+    ]
+  },
+  "industrySectors": {
+    "badge": "Industry Solutions",
+    "title": "We Serve Multiple Industries",
+    "subtitle": "Tailored security solutions designed for the unique needs of different sectors",
+    "items": [
+      {
+        "title": "Healthcare Buildings",
+        "description": "Specialized security solutions for hospitals, clinics, and medical facilities"
+      },
+      {
+        "title": "Commercial Buildings",
+        "description": "Comprehensive security systems for offices and corporate environments"
+      },
+      {
+        "title": "Industrial Facilities",
+        "description": "Advanced monitoring and access control for factories and warehouses"
+      },
+      {
+        "title": "Residential Complexes",
+        "description": "Smart security solutions for apartments and gated communities"
+      }
+    ]
+  },
+  
+  "solutions": {
+    "title": "Why Choose Us",
+    "subtitle": "We deliver integrated IT, security, automation, and communication solutions designed to support businesses, homes, and industrial environments.",
+    "button": "Explore All Services",
+    "items": [
+      {
+        "icon": "Building2",
+        "title": "IT SOLUTIONS",
+        "benefits": ["I.T Consultancy","Cloud Solutions","Hardware & Networking","Structured Cabling","Annual Maintenance Contract","Backup Solutions"]
+      },
+      {
+        "icon": "Phone",
+        "title": "TELECOMMUNICATIONS",
+        "benefits": ["IP PBX Systems","IP Phones","Analog Telephone Systems","Wireless DECT Phones","GSM Gateways","Video Conferencing Systems"]
+      },
+      {
+        "icon": "Camera",
+        "title": "CCTV & SECURITY",
+        "benefits": ["CCTV Surveillance","Access Control Systems","Time & Attendance","Vehicle Tracking","Home Security","Video Intercom Systems"]
+      },
+      {
+        "icon": "Home",
+        "title": "AV & AUTOMATION SYSTEMS",
+        "benefits": ["IPTV","SMATV","AV SOLUTIONS","HOME AUTOMATION","GATE AND PARKING AUTOMATION","OFFICE AUTOMATION"]
+      }
+    ]
+  },
+  "process": {
+    "title": "Secure Your Future with Smart Technology Solutions",
+    "subtitle": "At Master Tech, we provide cutting-edge security and automation solutions across the UAE. From SIRA-approved CCTV systems to smart home integration, our expert team ensures your property is protected using the latest industry standards.",
+    "primaryButton": "Protect My Home",
+    "secondaryButton": "Learn More",
+
+    "step": {
+      "label": "Step 1",
+      "title": "Advanced CCTV & Security Solutions",
+      "description": "Full-service security integration including SIRA & MCC compliant systems for residential and commercial projects.",
+      "features": [
+        "IP & Analog CCTV Systems",
+        "Access Control Systems",
+        "Smart Home Automation"
+      ]
+    },
+
+    "image": {
+      "title": "Smart Control Panel",
+      "subtitle": "Easy to use interface"
+    },
+
+  "caseStudies": {
+    "badge": "Success Stories",
+    "title": "Explore Our Case Studies",
+    "subtitle": "Real-world projects showcasing our expertise in security, automation, and smart solutions",
+    "explore": "Explore More",
+    "viewAll": "View All Case Studies",
+    "items": [
+      {
+        "title": "Mild Sound Systems Installation in Oman",
+        "category": "Audio & AV",
+        "description": "Professional sound system installations can completely transform your lifestyle, delivering crisp, balanced, and immersive audio experiences for homes and businesses.",
+        "date": "26 Nov 2025",
+        "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=1600&q=90"
+      },
+      {
+        "title": "Office Turnkey Solutions – Smart Office Setup",
+        "category": "Smart Office",
+        "description": "Turnkey office solutions combine design, technology integration, and smart systems to create productive and modern workspaces tailored to business needs.",
+        "date": "26 Nov 2025",
+        "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1600&q=90"
+      },
+      {
+        "title": "Top CCTV Companies in Oman",
+        "category": "CCTV & Security",
+        "description": "Choosing the right CCTV provider is critical for property protection. Advanced surveillance solutions ensure safety, compliance, and peace of mind.",
+        "date": "November 2025",
+        "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=1600&q=90"
+      },
+      {
+        "title": "The Journey of MasterTech",
+        "category": "Company Story",
+        "description": "This blog post features excerpts from Abdul Ansar’s interview on ‘The Journey of MasterTech,’ exclusively published in Business Magazine UAE.",
+        "date": "December 2025",
+        "image": "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?auto=format&fit=crop&w=1600&q=90"
+      }
+    ]
+  }
+  },
+  "caseStudies": {
+    "badge": "Success Stories",
+    "title": "Explore Our Case Studies",
+    "subtitle": "Real-world projects showcasing our expertise in security, automation, and smart solutions",
+    "explore": "Explore More",
+    "viewAll": "View All Case Studies",
+    "items": [
+      {
+        "title": "Mild Sound Systems Installation in Oman",
+        "category": "Audio & AV",
+        "description": "Professional sound system installations can completely transform your lifestyle, delivering crisp, balanced, and immersive audio experiences for homes and businesses.",
+        "date": "26 Nov 2025",
+        "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=1600&q=90"
+      },
+      {
+        "title": "Office Turnkey Solutions – Smart Office Setup",
+        "category": "Smart Office",
+        "description": "Turnkey office solutions combine design, technology integration, and smart systems to create productive and modern workspaces tailored to business needs.",
+        "date": "26 Nov 2025",
+        "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1600&q=90"
+      },
+      {
+        "title": "Top CCTV Companies in Oman",
+        "category": "CCTV & Security",
+        "description": "Choosing the right CCTV provider is critical for property protection. Advanced surveillance solutions ensure safety, compliance, and peace of mind.",
+        "date": "November 2025",
+        "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=1600&q=90"
+      },
+      {
+        "title": "The Journey of Muscat-techno",
+        "category": "Company Story",
+        "description": "This blog post features excerpts from Abdul Ansar’s interview on ‘The Journey of Muscat-techno,’ exclusively published in Business Magazine Oman.",
+        "date": "December 2025",
+        "image": "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?auto=format&fit=crop&w=1600&q=90"
+      }
+    ]
+  },
+  "footer": {
+    "aboutText": "Leading provider of comprehensive security solutions, protecting homes and businesses with cutting-edge technology since 2011.",
+
+    "services": {
+      "title": "Services",
+      "items": [
+        "CCTV Surveillance",
+        "Access Control",
+        "Intruder Alarms",
+        "PABX System",
+        "Time Attendance System"
+      ]
+    },
+
+    "support": {
+      "title": "Help & Support",
+      "items": [
+        "About Us",
+        "Services",
+        "Projects",
+        "Contact Us",
+        "Gallery"
+      ]
+    },
+
+    "contact": {
+      "title": "Contact Info",
+      "address": "123 Security Boulevard\nTech City, TC 12345",
+      "phone": "+96877322208",
+      "email": "info@Muscat-techno.com"
+    },
+
+    "copyright": "© 2026 Muscat-techno Security Systems. All rights reserved.",
+
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

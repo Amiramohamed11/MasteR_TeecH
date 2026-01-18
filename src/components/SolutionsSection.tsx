@@ -1,62 +1,11 @@
-import {
-  Building2,
-  Phone,
-  Camera,
-  Home,
-  ShieldCheck
-} from 'lucide-react';
+import { Building2, Phone, Camera, Home, ShieldCheck } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
 
 export function SolutionsSection() {
-  const solutions = [
-    {
-      icon: Building2,
-      title: 'IT SOLUTIONS',
-      benefits: [
-        'I.T Consultancy',
-        'Cloud Solutions',
-        'Hardware & Networking',
-        'Structured Cabling',
-        'Annual Maintenance Contract',
-        'Backup Solutions'
-      ]
-    },
-    {
-      icon: Phone,
-      title: 'TELECOMMUNICATIONS',
-      benefits: [
-        'IP PBX Systems',
-        'IP Phones',
-        'Analog Telephone Systems',
-        'Wireless DECT Phones',
-        'GSM Gateways',
-        'Video Conferencing Systems'
-      ]
-    },
-    {
-      icon: Camera,
-      title: 'CCTV & SECURITY',
-      benefits: [
-        'CCTV Surveillance',
-        'Access Control Systems',
-        'Time & Attendance',
-        'Vehicle Tracking',
-        'Home Security',
-        'Video Intercom Systems'
-      ]
-    },
-    {
-      icon: Home,
-      title: 'AV & AUTOMATION SYSTEMS',
-      benefits: [
-        'IPTV',
-        'SMATV',
-        'AV SOLUTIONS',
-        'HOME AUTOMATION',
-        'GATE AND PARKING AUTOMATION',
-        'OFFICE AUTOMATION'
-      ]
-    }
-  ];
+  const { t } = useTranslation();
+
+  const solutionsData = t('solutions.items', { returnObjects: true });
 
   return (
     <section className="py-24 bg-white">
@@ -65,29 +14,34 @@ export function SolutionsSection() {
         {/* Section Header */}
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-[#0B162C] mb-4">
-Why Choose Us
+            {t('solutions.title')}
           </h2>
-        
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-  We deliver integrated IT, security, automation, and communication solutions
-  designed to support businesses, homes, and industrial environments.
-</p>
-
+            {t('solutions.subtitle')}
+          </p>
         </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-  {solutions.map((solution, index) => (
+        {/* Solutions Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+  {/* التعديل هنا: أضفنا التحويل لمصفوفة any لضمان عمل الـ map */}
+  {(solutionsData as any[]).map((solution, index) => (
     <div
       key={index}
       className="group bg-white border border-gray-200 rounded-2xl p-8 
                  hover:shadow-2xl hover:-translate-y-2 
-                 transition-all duration-300 h-full"
+                 transition-all duration-300 h-full cursor-pointer"
     >
-      {/* Icon */}
-      <div className="bg-[#CDEB44]/15 w-16 h-16 rounded-xl flex items-center justify-center mb-6 
-                      group-hover:bg-[#CDEB44] transition-all">
-        <solution.icon className="w-8 h-8 text-[#1A4F9C] group-hover:text-[#0B162C]" />
-      </div>
+      {/* Icon with motion */}
+      <motion.div
+        className="bg-[#CDEB44]/15 w-16 h-16 rounded-xl flex items-center justify-center mb-6"
+        animate={{ rotate: [0, 15, -15, 0], y: [0, -5, 0] }}
+        transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
+      >
+        {solution.icon === 'Building2' && <Building2 className="w-8 h-8 text-[#1A4F9C]" />}
+        {solution.icon === 'Phone' && <Phone className="w-8 h-8 text-[#1A4F9C]" />}
+        {solution.icon === 'Camera' && <Camera className="w-8 h-8 text-[#1A4F9C]" />}
+        {solution.icon === 'Home' && <Home className="w-8 h-8 text-[#1A4F9C]" />}
+      </motion.div>
 
       {/* Title */}
       <h3 className="text-xl font-bold text-[#0B162C] mb-2">
@@ -99,7 +53,8 @@ Why Choose Us
 
       {/* Benefits */}
       <ul className="space-y-3">
-        {solution.benefits.map((benefit, idx) => (
+        {/* هذا الجزء الذي عدلناه سابقاً وهو صحيح الآن */}
+        {(solution.benefits as any[]).map((benefit: string, idx: number) => (
           <li key={idx} className="flex items-start gap-3">
             <ShieldCheck className="w-4 h-4 text-[#CDEB44] mt-1 flex-shrink-0" />
             <span className="text-gray-600 text-sm leading-relaxed">
@@ -111,11 +66,10 @@ Why Choose Us
     </div>
   ))}
 </div>
-
         {/* CTA */}
         <div className="text-center">
           <button className="bg-[#1A4F9C] text-white px-12 py-4 rounded-lg font-semibold hover:bg-[#153d7a] transition-all shadow-xl">
-            Explore All Services
+            {t('solutions.button')}
           </button>
         </div>
 
