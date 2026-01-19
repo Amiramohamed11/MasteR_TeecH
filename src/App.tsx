@@ -9,10 +9,14 @@ import { ProcessSection } from './components/ProcessSection';
 import { CaseStudies } from './components/CaseStudies';
 import { QuoteSection } from './components/QuoteSection';
 import { Footer } from './components/Footer';
+import { PartnersSlider } from './components/PartnersSlider';
 import { useTranslation } from 'react-i18next';
 import './i18n'; // مهم جدًا قبل أي استخدام لـ useTranslation
 import './index.css'
+import './app.css'
+
 import { FaWhatsapp } from 'react-icons/fa'; // لو مستخدمة react-icons
+import { Section } from 'lucide-react';
 
 export default function App() {
   const { i18n } = useTranslation();
@@ -39,6 +43,16 @@ export default function App() {
 <section id="sectors">
         <IndustrySectors />
       </section>
+
+
+  {/* سليدر الشعارات */}
+    
+<section id="Partners">
+
+        <PartnersSlider/>
+
+      </section>
+
       <section id="projects">
         <SolutionsSection />
       </section>
@@ -46,15 +60,22 @@ export default function App() {
         <ProcessSection />
       </section>
 
-       <section id="contact">
               <CaseStudies />
+
+       <section id="contact">
+  <Footer/>
       </section>
-<Footer/>
+      
+
+       <section id="Contact">
+      </section>
+    
+      
 
 
 {/* أيقونة WhatsApp ثابتة */}
       <a
-        href="#contact"
+        href="#footer"
         className="fixed bottom-5 right-5 bg-[#25D366] text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform z-50"
         title="Go to Contact Section"
       >

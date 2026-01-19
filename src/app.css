@@ -1,0 +1,27 @@
+.swiper {
+  padding-bottom: 40px !important; 
+}
+
+.swiper-pagination {
+  bottom: 0px !important; /* خفض النقاط للأسفل */
+  position: relative !important; /* جعلها تأخذ مساحة خاصة بها أسفل السلايدر */
+  margin-top: 20px;
+}
+
+
+.partners-swiper .swiper-pagination {
+  bottom: 0px !important; /* إنزال النقاط لأسفل منطقة الـ padding */
+  position: absolute;
+}
+
+.partners-swiper .swiper-pagination-bullet {
+  background: #ffffff; /* لون النقاط العادية */
+  opacity: 0.3;
+}
+
+.partners-swiper .swiper-pagination-bullet-active {
+  background: #CDEB44 !important; /* لون النقطة النشطة - أصفر فسفوري */
+  opacity: 1;
+  width: 12px; 
+  border-radius: 5px;
+}

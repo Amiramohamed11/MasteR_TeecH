@@ -3,6 +3,7 @@
   "about": "About Us",
   "services": "Services",
   "sectors": "Sectors",
+  "Partners": "Partners",
   "projects": "Projects",
   "gallery": "Gallery",
   "contact": "Contact",
@@ -236,7 +237,14 @@
       "terms": "Terms of Service",
       "cookies": "Cookie Policy"
     }
-  }
+  },
+  
+  "partners": {
+    "title": "Our Partners",
+    "subtitle": "We are proud to work with leading companies in smart solutions and security systems"
+  
+}
+
 
 
 
